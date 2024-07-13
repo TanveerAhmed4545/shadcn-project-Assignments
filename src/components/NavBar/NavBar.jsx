@@ -28,27 +28,27 @@ const NavBar = () => {
             <div className="hidden md:block">
               <ul className="ml-10 flex items-center space-x-4">
                 <li>
-                  <button className="h-10 w-10 p-2 flex justify-center items-center rounded-full bg-[#2B2B2B]">
+                  <button className="h-10 w-10 p-2 flex justify-center items-center rounded-full bg-[#2B2B2B] hover:text-gray-700 hover:bg-gray-100">
                     <FaSearch />
                   </button>
                 </li>
                 <li>
-                  <button className="h-10 w-10 p-2 flex justify-center items-center rounded-full bg-[#2B2B2B]">
+                  <button className="h-10 w-10 p-2 flex justify-center items-center rounded-full bg-[#2B2B2B] hover:text-gray-700 hover:bg-gray-100">
                     <FaPencilAlt />
                   </button>
                 </li>
                 <li>
-                  <button className="h-10 w-10 p-2 flex justify-center items-center rounded-full bg-[#2B2B2B]">
+                  <button className="h-10 w-10 p-2 flex justify-center items-center rounded-full bg-[#2B2B2B] hover:text-gray-700 hover:bg-gray-100">
                     <MdEmail />
                   </button>
                 </li>
                 <li>
-                  <button className="h-10 w-10 p-2 flex justify-center items-center rounded-full bg-[#2B2B2B]">
+                  <button className="h-10 w-10 p-2 flex justify-center items-center rounded-full bg-[#2B2B2B] hover:text-gray-700 hover:bg-gray-100">
                     <FaBell />
                   </button>
                 </li>
                 <li>
-                  <button className="h-10 w-10 p-2 flex justify-center items-center rounded-full bg-[#2B2B2B]">
+                  <button className="h-10 w-10 p-2 flex justify-center items-center rounded-full bg-[#2B2B2B] hover:text-gray-700 hover:bg-gray-100">
                     <BsThreeDots />
                   </button>
                 </li>
