@@ -9,9 +9,9 @@ import img8 from "../../../assets/images/Rectangle8.png";
 
 const ImageVideo = () => {
   return (
-    <div className="flex gap-2 md:flex-col">
+    <div className="flex gap-2 md:flex-col ">
       <div className="mb-5 flex flex-col justify-between">
-        <h2 className="text-2xl mb-2">Photos</h2>
+        <h2 className="text-2xl mb-2 pt-2 md:pt-7">Photos</h2>
         <div className="grid grid-cols-2 ">
           <img className="w-full" src={img1} />
           <img className="w-full" src={img2} />
@@ -23,7 +23,7 @@ const ImageVideo = () => {
         </h2>
       </div>
       <div className="mb-5  flex flex-col justify-between">
-        <h2 className="text-2xl mb-2">Videos</h2>
+        <h2 className="text-2xl mb-2 pt-2 ">Videos</h2>
         <div className="flex flex-col gap-2 h-full">
           <img className="w-full  h-full" src={img5} />
 

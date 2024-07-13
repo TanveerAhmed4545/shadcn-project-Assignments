@@ -1,7 +1,7 @@
 import profilePic from "../../../assets/images/ProfilePic.png";
 const ProfileSection = () => {
   return (
-    <div className="flex justify-between">
+    <div className="flex justify-between ">
       <div>
         <img
           src={profilePic}
