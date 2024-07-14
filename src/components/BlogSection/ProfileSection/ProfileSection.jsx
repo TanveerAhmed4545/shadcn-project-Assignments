@@ -1,3 +1,4 @@
+import FollowButton from "@/components/Button/FollowButton/FollowButton";
 import profilePic from "../../../assets/images/ProfilePic.png";
 const ProfileSection = () => {
   return (
@@ -20,9 +21,7 @@ const ProfileSection = () => {
         </div>
       </div>
       <div className="pt-2 md:pt-7">
-        <button className="text-white bg-[#196AA0] py-2 px-5 rounded-3xl">
-          Follow
-        </button>
+        <FollowButton />
       </div>
     </div>
   );

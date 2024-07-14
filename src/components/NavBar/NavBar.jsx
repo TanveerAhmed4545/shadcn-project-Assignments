@@ -7,6 +7,7 @@ import { HiMenu, HiX } from "react-icons/hi";
 import { MdEmail } from "react-icons/md";
 import logo from "../../assets/images/Logo.png";
 import profilePic from "../../assets/images/ProfilePic.png";
+import NavButton from "../Button/NavButton/NavButton";
 
 const NavBar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -28,29 +29,19 @@ const NavBar = () => {
             <div className="hidden md:block">
               <ul className="ml-10 flex items-center space-x-4">
                 <li>
-                  <button className="h-10 w-10 p-2 flex justify-center items-center rounded-full bg-[#2B2B2B] hover:text-gray-700 hover:bg-gray-100">
-                    <FaSearch />
-                  </button>
+                  <NavButton icon={FaSearch} />
                 </li>
                 <li>
-                  <button className="h-10 w-10 p-2 flex justify-center items-center rounded-full bg-[#2B2B2B] hover:text-gray-700 hover:bg-gray-100">
-                    <FaPencilAlt />
-                  </button>
+                  <NavButton icon={FaPencilAlt} />
                 </li>
                 <li>
-                  <button className="h-10 w-10 p-2 flex justify-center items-center rounded-full bg-[#2B2B2B] hover:text-gray-700 hover:bg-gray-100">
-                    <MdEmail />
-                  </button>
+                  <NavButton icon={MdEmail} />
                 </li>
                 <li>
-                  <button className="h-10 w-10 p-2 flex justify-center items-center rounded-full bg-[#2B2B2B] hover:text-gray-700 hover:bg-gray-100">
-                    <FaBell />
-                  </button>
+                  <NavButton icon={FaBell} />
                 </li>
                 <li>
-                  <button className="h-10 w-10 p-2 flex justify-center items-center rounded-full bg-[#2B2B2B] hover:text-gray-700 hover:bg-gray-100">
-                    <BsThreeDots />
-                  </button>
+                  <NavButton icon={BsThreeDots} />
                 </li>
               </ul>
             </div>

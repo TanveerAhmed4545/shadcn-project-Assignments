@@ -1,4 +1,5 @@
 /* eslint-disable react/prop-types */
+import TagButton from "@/components/Button/TagButton/TagButton";
 import { useState } from "react";
 
 const BlogCard = ({ blog }) => {
@@ -25,7 +26,7 @@ const BlogCard = ({ blog }) => {
           </div>
           <div className="flex justify-between border-t-2 border-[#3030301A] pt-2">
             <div className="flex flex-wrap gap-2">
-              {
+              {/* {
                 // eslint-disable-next-line react/prop-types
                 tags.map((tag, index) => (
                   <button
@@ -35,16 +36,11 @@ const BlogCard = ({ blog }) => {
                     {tag}
                   </button>
                 ))
-              }
-              {/* <button className="text-[8px] md:text-xs text-[#196aa0] bg-white px-2 rounded-xl py-1">
-                #photography
-              </button>
-              <button className="text-[8px] md:text-xs text-[#196aa0] bg-white px-2 rounded-xl py-1">
-                #astronomy
-              </button>
-              <button className="text-[8px] text-[#196aa0] md:text-xs bg-white px-2 rounded-xl py-1">
-                #astrophotography
-              </button> */}
+              } */}
+              {tags.map((tag, index) => (
+                <TagButton key={index} tag={tag} />
+              ))}
+
               <button className="text-[8px] text-[#196aa0] md:text-xs bg-white px-2 rounded-xl py-1">
                 +
               </button>
