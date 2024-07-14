@@ -1,3 +1,4 @@
+import btnPlayer from "../../../assets/images/BtnPlayer.png";
 import img1 from "../../../assets/images/Rectangle1.png";
 import img2 from "../../../assets/images/Rectangle2.png";
 import img3 from "../../../assets/images/Rectangle3.png";
@@ -24,13 +25,37 @@ const ImageVideo = () => {
       </div>
       <div className="mb-5  flex flex-col justify-between">
         <h2 className="text-2xl mb-2 pt-2 ">Videos</h2>
-        <div className="flex flex-col gap-2 h-full">
-          <img className="w-full  h-full" src={img5} />
+        <div className="flex flex-col gap-2 h-full ">
+          <div className="w-full  h-full relative">
+            <img className="w-full  h-full" src={img5} />
+            <img
+              className="absolute inset-0 m-auto md:h-12 md:w-16"
+              src={btnPlayer}
+            />
+          </div>
 
           <div className="flex justify-between gap-2 ">
-            <img className="w-full rounded-xl" src={img6} />
-            <img className="w-full rounded-xl" src={img7} />
-            <img className="w-full  rounded-xl" src={img8} />
+            <div className="w-full  rounded-xl relative">
+              <img className="w-full rounded-xl" src={img6} />
+              <img
+                className="absolute inset-0 m-auto h-4 w-5 md:h-6 md:w-8"
+                src={btnPlayer}
+              />
+            </div>
+            <div className="w-full  rounded-xl relative">
+              <img className="w-full rounded-xl" src={img7} />
+              <img
+                className="absolute inset-0 m-auto h-4 w-5 md:h-6 md:w-8"
+                src={btnPlayer}
+              />
+            </div>
+            <div className="w-full  rounded-xl relative">
+              <img className="w-full  rounded-xl" src={img8} />
+              <img
+                className="absolute inset-0 m-auto h-4 w-5 md:h-6 md:w-8"
+                src={btnPlayer}
+              />
+            </div>
           </div>
         </div>
         <h2 className="text-right text-[#196AA0] text-xs md:text-base font-medium mt-2">
